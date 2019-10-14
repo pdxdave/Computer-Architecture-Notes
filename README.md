@@ -38,3 +38,21 @@ Base 2 binary
  128 64 32 16 8 4 2 1
   0   1  0  1 0 1 0 1
 ```
+
+Decimal to binary
+Exmaple: 67
+Would be: 01000011
+
+------------ 
+
+Convert Binary to Hexadecimal
+
+First we'll split this up into Nibbles
+```
+1010      0011
+ 10    &    3 in decimal
+```
+Each Nibble can be converted into a hexadecimal digit
+
+
+
