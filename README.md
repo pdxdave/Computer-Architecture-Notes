@@ -22,3 +22,19 @@ Numbers have value.  Assuming we have 12 apples, they can be represnted like so:
 
 ### Conversions
 
+Base 2 binary
+```
+  |  +--------- 64s
+  || +----------32s
+  ||| +---------16s
+  |||| + ------- 8s
+  ||||| + ------ 4s
+  |||||| + ----- 2s
+  ||||||| +----- 1s
+  ||||||||
+  01010110
+```
+```
+ 128 64 32 16 8 4 2 1
+  0   1  0  1 0 1 0 1
+```
