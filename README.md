@@ -45,14 +45,50 @@ Would be: 01000011
 
 ------------ 
 
-Convert Binary to Hexadecimal
+#### Convert Binary to Hexadecimal
 
 First we'll split this up into Nibbles
 ```
 1010      0011
  10    &    3 in decimal
 ```
-Each Nibble can be converted into a hexadecimal digit
+Each Nibble can be converted into a Hexadecimal digit
+
+In Hexadecimal 10 is A.  So the above would be A3, which is 10100011
 
 
+#### Convert Hexadecimal to Binary
+
+The Hexadecimal number will be C7
+
+C in Hexidecimal is 1100.  Remember this is a Nibble that adds up to 12
+7 in Hexidecimal is 0111.
+C7 Hexadecimal == 11000111 in Binary
+
+
+### How to identify to the compiler
+* Decimal == 100        // value 100 decimal
+* Hexadecimal == 0x100  // value 256 decimal
+* Binary == 0b100       // value 4 decimal
+* Hexadecimal == 0x47F
+
+In Hex 47F would be 0100 0111 1111
+
+#### Printing binary to other bases
+
+This is using C language
+
+```
+int x = 0b11000101;
+
+printf("%d decimal\n", x);  \\ 197 decimal
+printf("%x hexl\n", x);     \\ c5 hex
+printf("%X hex\n", x);      \\ C5 hex
+```
+```
+int x = 255;
+
+printf("%X\n", y);    \\ FF
+
+```
 
