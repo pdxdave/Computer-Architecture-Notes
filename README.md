@@ -130,11 +130,18 @@ A   B    A AND B            A   B    A OR B
 1    1     1                1    1      1
 
 
-AND operator is '&' (tilde)
+AND operator is '&'                    OR operator is '|' 
 
-    a = 1
-    ~a == 0
+    a = 0                                     a = 0
+    b = 0                                     b = 0
     
-    a = 0
-    ~a == 1
+    a & b == 0                                a | b == 0
+    
+    a = 1                                     a = 1
+    b = 0                                     b = 0
+    a & b == 0                                a | b == 1
+    
+    a = 1                                     a = 1
+    b = 1                                     b = 1
+    a & b == 1                                a | b == 1
 ```
