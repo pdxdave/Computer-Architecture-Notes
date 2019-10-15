@@ -238,8 +238,10 @@ Bitwise operator
 
 ```
 Bitshift
-Why is this important?  Some commands take 2 or 3 arguments.  How do we know how many arguments are in each command?
-The first two bits will tell how many arguments there are.  call 01  is one argument.  cmp has two artuments 10 
+Why is this important?  Some commands take 2 or 3 arguments.  
+How do we know how many arguments are in each command?
+The first two bits will tell how many arguments there are.  
+call 01  is one argument.  cmp has two artuments 10 
 dec has 1 so 01.
 
 Bitshift is used to calculate this.  
