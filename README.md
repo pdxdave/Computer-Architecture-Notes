@@ -91,3 +91,35 @@ int x = 255;
 printf("%X\n", y);    \\ FF
 
 ```
+
+### Bitwise Operations
+
+Boolean operations work on 1=T/0=F values.  We use operators like &&(AND), ||(OR), !(NOT)
+
+Bitwise operations work on numeric values.
+
+```
+Truth table for bitwise NOT
+
+A        NOT A
+--------------
+0         1(inverts it)
+1         0
+
+This works much like regular boolean. If A is set to False(0), then say A != False it checks for True
+```
+In C NOT looks like this
+```
+NOT operator is '~' (tilde)
+
+    a = 1
+    ~a == 0
+    
+    a = 0
+    ~a == 1
+```
+AND and OR tables
+```
+
+
+```
