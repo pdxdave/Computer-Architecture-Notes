@@ -92,7 +92,9 @@ printf("%X\n", y);    \\ FF
 
 ```
 
-### Bitwise Operations
+### Day 2
+
+#### Bitwise Operations
 
 Boolean operations work on 1=T/0=F values.  We use operators like &&(AND), ||(OR), !(NOT)
 
@@ -120,6 +122,19 @@ NOT operator is '~' (tilde)
 ```
 AND and OR tables
 ```
+A   B    A AND B            A   B    A OR B
+--------------             -----------------
+0    0     0                0    0      0
+0    1     0                0    1      1
+1    0     0                1    0      1
+1    1     1                1    1      1
 
 
+AND operator is '&' (tilde)
+
+    a = 1
+    ~a == 0
+    
+    a = 0
+    ~a == 1
 ```
