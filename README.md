@@ -276,3 +276,27 @@ A     B     A + B          A + B / like AND and XOR
 1     1      2     10      1   0
 
 ```
+
+Today's assignment
+
+file i/o
+
+ls8.py  file
+
+create file called file.py
+
+import sys  
+
+if len(sys.arg) != 2:
+  print("usage: file.py <filename>", file=sys.stderr)   // file then path
+  sys.exit(1)
+  
+try:
+  with open(sys.argv[1) as f:
+    for line in f:
+      print(line)
+      
+except FileNoFoundError:
+    
+    
+```
