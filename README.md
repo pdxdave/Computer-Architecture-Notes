@@ -193,8 +193,74 @@ exclusive XOR
 ^ 1 1 1 0 0 0 1 1
 -------------------
   0 0 1 1 1 0 0 1
+```
 
+Class Notes - Why this project?  What's the big picture?
 
+ls8 language
+- machine code
+- operations with two arguments
+- linear, things must be next to each other
+
+Logical operations and Truth Table
+
+```
+not (A and B) and not (not A or not B) === False
+-- breakdown of above (A nand B) and (A and B)
+
+for A in [False, True]:
+  for B in [False, True]:
+    print(f"{A}-{B})
+
+```
+
+MORE Bitwise operations
+  - Logical Operations
+  - Bit shift
+  - Bit mask
+  
+0b 0101 0110    decimal value  0d86  /  hex value 0x56
+
+```
+01010110
+11000011
+
+Bitwise operator
+86 & 195
+
+   01010110
+ & 11000011
+ --------------
+   01000010
+   
+ 2 + 64 = 66
+```
+
+```
+Bitshift
+Why is this important?  Some commands take 2 or 3 arguments.  How do we know how many arguments are in each command?
+The first two bits will tell how many arguments there are.  call 01  is one argument.  cmp has two artuments 10 
+dec has 1 so 01.
+
+Bitshift is used to calculate this.  
+01010110 >> 6 is 00000001
+
+01010110 >> 1
+shifting to the left by one
+00101011
+
+01010110 << 1
+shifting to the right by one
+10101100
+
+```
+```
+Bitmask
+
+     01010110  original
+and  00001110  the mask
+-------------
+     00000110
 
 ```
 
