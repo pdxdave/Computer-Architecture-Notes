@@ -145,3 +145,15 @@ AND operator is '&'                    OR operator is '|'
     b = 1                                     b = 1
     a & b == 1                                a | b == 1
 ```
+Relatives of AND and OR   ---   NAND and NOR
+```
+A    B   A AND B            A    B    A NAND B
+--------------             -----------------
+0    0     0                0    0      1
+0    1     0                0    1      1
+1    0     0                1    0      1
+1    1     1                1    1      0
+
+** NAND is inverted
+
+```
