@@ -154,7 +154,8 @@ A    B   A AND B            A    B    A NAND B
 1    0     0                1    0      1
 1    1     1                1    1      0
 
-** NAND is inverted
+** Remember NAND is inverted.  Only two true will return a false.
+Opposite to what is normally used
 
 ```
 ```
@@ -165,7 +166,7 @@ A    B   A OR B            A    B    A NOR B
 1    0     1                1    0      0
 1    1     1                1    1      0
 
-NOR is an inverse of the OR table
+Remember NOR is an inverse of the OR table
 ```
 XOR
 Similar to NOR but is only true if one or the other is true, not both
